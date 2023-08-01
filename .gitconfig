@@ -1,0 +1,20 @@
+[user]
+	email = jan.kristian.bueie@mattilsynet.no
+	name = Jan Kristian Bueie
+[credential "https://github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[merge]
+	conflictstyle = diff3
+	tool = diff3
+[pull]
+	ff = only
+[core]
+  pager = delta 
+[delta]
+  syntax-theme = GitHub
+  side-by-side = true
+  true-color = always
