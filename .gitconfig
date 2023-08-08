@@ -17,3 +17,5 @@
 [delta]
   syntax-theme = GitHub
   side-by-side = true
+[alias]
+	lg = log --pretty='%C(red)%h%C(yellow) %d%Creset %s%C(cyan)(%ad) %Creset' --date=format:'%d %b %H:%M'
