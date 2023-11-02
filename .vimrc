@@ -9,6 +9,8 @@ set expandtab
 set tabstop=2
 set shiftwidth=2
 
+set ignorecase
+
 set laststatus=2
 "set statusline=%{FugitiveStatusline()}
 let &t_SI = "\e[5 q"
